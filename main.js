@@ -1,7 +1,8 @@
 window.onload = () => {
     this.webm = document.querySelector("#main");
     setSize();
-    this.webm.onclick = () => open(window.location.href, `popup`, `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=0,height=0,left=-1000,top=-1000`);
+    popup${Math.random()}, scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=0,height=0,left=-1000,top=-1000);
+    
 };
 
 window.onresize = () => setSize();
